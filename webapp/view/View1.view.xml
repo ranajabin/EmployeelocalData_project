@@ -1,0 +1,59 @@
+<mvc:View
+    controllerName="tabledata.pdfdownloadproject.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Page
+        id="page"
+        title="Download as PDF"
+        titleAlignment="Center"
+    >
+        <content>
+            <Table
+                items="{path:'localdata>/EmployeeData'}"
+                class="tablecss"
+                id="table"
+            >
+                <headerToolbar>
+                    <Toolbar class="btncss">
+                        <ToolbarSpacer />
+                        <Text text="Table Download" />
+                        <Button
+                            icon="sap-icon://download"
+                            press="downloadpdf"
+                        />
+                    </Toolbar>
+                </headerToolbar>
+                <columns>
+                    <Column>
+                        <Text text="Name" />
+                    </Column>
+                    <Column>
+                        <Text text="Role" />
+                    </Column>
+                    <Column>
+                        <Text text="Skills" />
+                    </Column>
+                    <Column>
+                        <Text text="Phone" />
+                    </Column>
+                    <Column>
+                        <Text text="Address" />
+                    </Column>
+                </columns>
+                <items>
+                    <ColumnListItem class="listcss">
+                        <cells>
+                            <Text text="{localdata>Name}" />
+                            <Text text="{localdata>Role}" />
+                            <Text text="{localdata>Skills}" />
+                            <Text text="{localdata>Phone}" />
+                            <Text text="{localdata>Address}" />
+                        </cells>
+                    </ColumnListItem>
+                </items>
+            </Table>
+        </content>
+    </Page>
+</mvc:View>

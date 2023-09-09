@@ -1,0 +1,74 @@
+{
+    "EmployeeData": [
+        {
+            "Name": "Shiva",
+            "Role": "Developer",
+            "Skills": "UI5",
+            "Phone": "8930293821",
+            "Address": "Hyderabad"
+        },
+        {
+            "Name": "Ram",
+            "Role": "Tester",
+            "Skills": "Selenium",
+            "Phone": "9083726543",
+            "Address": "Bangalore"
+        },
+        {
+            "Name": "Krishna",
+            "Role": "Developer",
+            "Skills": "Java",
+            "Phone": "7890342134",
+            "Address": "Delhi"
+        },
+        {
+            "Name": "Kumar",
+            "Role": "Developer",
+            "Skills": "C++",
+            "Phone": "9806509873",
+            "Address": "Hyderabad"
+        },
+        {
+            "Name": "Rahul",
+            "Role": "Tester",
+            "Skills": "Selenium",
+            "Phone": "90382342120",
+            "Address": "Pune"
+        },
+        {
+            "Name": "Raj",
+            "Role": "Data Analyst",
+            "Skills": "Pyhton",
+            "Phone": "9087643212",
+            "Address": "Chennai"
+        },
+        {
+            "Name": "Sandeep",
+            "Role": "Backend Developer",
+            "Skills": "SQL",
+            "Phone": "9038376251",
+            "Address": "Pune"
+        },
+        {
+            "Name": "Suprith",
+            "Role": "Data Analyst",
+            "Skills": "Python",
+            "Phone": "9083762832",
+            "Address": "Hyderabad"
+        },
+        {
+            "Name": "Vinay",
+            "Role": "Frontend Developer",
+            "Skills": "HTML",
+            "Phone": "9030349432",
+            "Address": "Hyderabad"
+        },
+        {
+            "Name": "Pavan",
+            "Role": "Tester",
+            "Skills": "Selenium",
+            "Phone": "8934098329",
+            "Address": "Mumbai"
+        }
+    ]
+}
